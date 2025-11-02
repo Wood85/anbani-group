@@ -19,8 +19,6 @@
           <span></span>
           <span></span>
         </button>
-    
-        <div class="header__overlay" id="overlay"></div>
 
         <div class="header__heading">
           <img src="/src/assets/logo.png" alt="Anbani Group logo" class="header__logo" />
@@ -74,9 +72,11 @@
           </ul>
         </div>
       </div>
+      <div class="header__overlay" id="overlay"></div>
     </header>
 
     <main class="main">
+      
       <section class="hero" role="banner">
         <div class="hero__banner">
           <img class="hero__banner-img" src="/src/assets/kt.webp" alt="banner">
@@ -90,29 +90,47 @@
         </div>
       </section>
 
-      <section id="about" class="about">
-        <div class="about__container">
-          <h2 class="about__title" data-i18n="about.title"></h2>
-          <p class="about__text" data-i18n="about.text"></p>
-        </div>
-      </section>
-
-      <section id="services" class="services">
-        <div class="services__container">
-          <h2 class="services__title" data-i18n="services.title"></h2>
-          <div class="services__gallery">
-            <!-- <img src="/public/furniture1.jpg" alt="" class="services__image" />
-            <img src="/public/furniture2.jpg" alt="" class="services__image" />
-            <img src="/public/furniture3.jpg" alt="" class="services__image" /> -->
+      <section id="partners" class="partners">
+        <div class="partners__container">
+          <h2 class="partners__title" data-i18n="partners.title"></h2>
+          <ul class="partners__gallery" role="list">
+            <li class="partners__item" role="listitem">
+              <img src="/src/assets/blum-logo.svg" alt="blum-logo" class="partners__image" />
+            </li>
+            <li class="partners__item" role="listitem">
+              <img src="/src/assets/blum-logo.svg" alt="blum-logo" class="partners__image" />
+            </li>
+            <li class="partners__item" role="listitem">
+              <img src="/src/assets/blum-logo.svg" alt="blum-logo" class="partners__image" />
+            </li>
+            <li class="partners__item" role="listitem">
+              <img src="/src/assets/blum-logo.svg" alt="blum-logo" class="partners__image" />
+            </li>
           </div>
         </div>
       </section>
 
-      <section id="contacts" class="contacts">
-        <div class="contacts__container">
-          <h2 class="contacts__title" data-i18n="contacts.title"></h2>
-          <p class="contacts__text" data-i18n="contacts.text"></p>
-          <a href="tel:+995555555555" class="contacts__phone">+995 555 555 555</a>
+      <section class="stats">
+        <div class="stats__container">
+          <h2 class="stats__title" data-i18n="stats.title"></h2>
+          <div class="stats__list" role="list">
+            <div class="stats__item">
+              <div class="stats__number"> > 17 <span class="stats__number" data-i18n="stats.periodYears"></span></div>
+              <span class="stats__label" data-i18n="stats.period"></span>
+            </div>
+            <div class="stats__item">
+              <span class="stats__number">546</span>
+              <span class="stats__label" data-i18n="stats.clients"></span>
+            </div>
+            <div class="stats__item">
+              <span class="stats__number">1200+</span>
+              <span class="stats__label" data-i18n="stats.projects"></span>
+            </div>
+            <div class="stats__item">
+              <div class="stats__number">3 <span class="stats__number" data-i18n="stats.years"></span></div>
+              <span class="stats__label" data-i18n="stats.warranty"></span>
+            </div>
+          </div>
         </div>
       </section>
     </main>
