@@ -1,0 +1,98 @@
+.lang-switcher {
+  position: relative;
+  display: inline-block;
+  font-family: inherit;
+  z-index: 10;
+}
+
+.lang-switcher__button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-size: 12px;
+}
+
+.lang-switcher__button:hover {
+  background: #f0f0f0;
+}
+
+.lang-switcher__flag {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.lang-switcher__dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 100%;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 4px 0;
+  display: none;
+  z-index: 100;
+}
+
+.lang-switcher__option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 12px;
+}
+
+.lang-switcher__option:hover {
+  background: #f0f0f0;
+}
+
+.lang-switcher--open .lang-switcher__dropdown {
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .header__nav {
+    gap: 30px;
+  }
+
+  .header__phone-title{
+    display: none;
+  }
+
+  .header__phone-num {
+    font-size: 14px;
+  }
+
+  .hero {
+    height: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .lang-switcher__flag {
+    width: 16px;
+    height: 12px;
+  }
+  .lang-switcher__label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .lang-switcher__label {
+    font-size: 12px;
+  }
+}
