@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #F2D1A4;
+  --secondary-color: #C9601E;
+  --bg-color: #EFE3D1;
+  --text-color: #222;
+  --border-radius: 8px;
+  --font-size-base: 16px;
+  --font-main: 'Montserrat', sans-serif;
+}
+
+body.page {
+  font-family: var(--font-main);
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  line-height: 1.2;
+}

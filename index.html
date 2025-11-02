@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anbani Group — Мебель на заказ</title>
+    <link rel="stylesheet" href="/src/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="/src/scripts/main.ts"></script>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <button class="header__burger" id="burgerBtn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+    
+        <div class="header__overlay" id="overlay"></div>
+
+        <div class="header__heading">
+          <img src="/src/assets/logo.png" alt="Anbani Group logo" class="header__logo" />
+          <div class="header__heading-info">
+            <h2 class="header__heading-title">Anbani Group</h2>
+          </div>
+        </div>
+        <nav class="header__nav" id="mainNav">
+          <a href="#about" class="header__link" data-i18n="menu.about"></a>
+          <a href="#services" class="header__link" data-i18n="menu.services"></a>
+          <a href="#contacts" class="header__link" data-i18n="menu.contacts"></a>
+          <div class="header__contacts">
+            <ul class="header__contacts-icons">
+              <li class="header__contacts-item header__whats-app" >
+                <a class="header__contacts-link header__whats-app-link" href="https://wa.me/995595903689?text=Здравствуйте!%20Хочу%20заказать%20мебель." target="_blank" rel="noopener noreferrer" aria-label="Написать в WhatsApp">
+                  <img class="header__contacts-img" src="/contacts/whatsapp.svg" alt="whatsapp icon">
+                </a>
+              </li>
+              <li class="header__contacts-item header__telegram">
+                <a class="header__contacts-link header__telegram-link" href="https://t.me/+995595903689?text=Здравствуйте!%20Хочу%20заказать%20мебель." target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram">
+                  <img class="header__contacts-img" src="/contacts/tg.svg" alt="telegram icon">
+                </a>
+              </li>  
+            </ul>
+            <div class="header__phone">
+              <div class="header__phone-title" data-i18n="contacts.phone"></div>
+              <a class="header__phone-num" href="tel:+995595903689">+995 595 90 36 89</a>
+            </div>
+          </div>
+        </nav>
+
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-switcher__button">
+            <img
+              src="/flags/ru.svg"
+              alt="Русский"
+              class="lang-switcher__flag"
+            />
+            <span class="lang-switcher__label">RU</span>
+          </button>
+        
+          <ul class="lang-switcher__dropdown">
+            <li data-lang="ru" class="lang-switcher__option">
+              <img src="/flags/ru.svg" alt="Русский" class="lang-switcher__flag" />
+              RU
+            </li>
+            <li data-lang="en" class="lang-switcher__option">
+              <img src="/flags/en.svg" alt="English" class="lang-switcher__flag" />
+              EN
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero" role="banner">
+        <div class="hero__banner">
+          <img class="hero__banner-img" src="/src/assets/kt.webp" alt="banner">
+        </div>
+        <div class="hero__content">
+          <div class="hero__content-container">
+            <h1 class="hero__title" data-i18n="hero.title"></h1>
+            <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+            <a href="#contacts" class="hero__button" data-i18n="hero.button"></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="about__container">
+          <h2 class="about__title" data-i18n="about.title"></h2>
+          <p class="about__text" data-i18n="about.text"></p>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="services__container">
+          <h2 class="services__title" data-i18n="services.title"></h2>
+          <div class="services__gallery">
+            <!-- <img src="/public/furniture1.jpg" alt="" class="services__image" />
+            <img src="/public/furniture2.jpg" alt="" class="services__image" />
+            <img src="/public/furniture3.jpg" alt="" class="services__image" /> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__title" data-i18n="contacts.title"></h2>
+          <p class="contacts__text" data-i18n="contacts.text"></p>
+          <a href="tel:+995555555555" class="contacts__phone">+995 555 555 555</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- <footer class="footer">
+      <p class="footer__text">&copy; <span id="year"></span> Anbani Group</p>
+    </footer>
+  </body> -->
+</html>
