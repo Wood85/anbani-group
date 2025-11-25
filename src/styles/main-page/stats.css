@@ -1,6 +1,6 @@
 .stats {
   display: flex;
-  padding: 0 30px 50px;
+  padding: 50px 30px;
   width: 100%;
   max-width: 1440px;
 }
@@ -28,7 +28,7 @@
 .stats__number {
   font-size: 30px;
   font-weight: 700;
-  color: #5ABF70;
+  color: #5abf70;
 }
 
 .stats__label {
@@ -52,6 +52,14 @@
 }
 
 @media (max-width: 550px) {
+  .stats {
+    padding: 30px 16px;
+  }
+
+  .stats__title {
+    text-align: center;
+  }
+
   .stats__list {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script type="module" src="/src/scripts/main.ts"></script>
+    <script type="module" src="/src/scripts/ui/reviews.ts"></script>
   </head>
   <body class="page">
     <header class="header">
@@ -84,13 +85,13 @@
         <div class="hero__content">
           <div class="hero__content-container">
             <h1 class="hero__title" data-i18n="hero.title"></h1>
-            <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+            <!-- <p class="hero__subtitle" data-i18n="hero.subtitle"></p> -->
             <a href="#contacts" class="hero__button" data-i18n="hero.button"></a>
           </div>
         </div>
       </section>
 
-      <section id="partners" class="partners">
+      <!-- <section id="partners" class="partners">
         <div class="partners__container">
           <h2 class="partners__title" data-i18n="partners.title"></h2>
           <ul class="partners__gallery" role="list">
@@ -108,7 +109,7 @@
             </li>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="stats">
         <div class="stats__container">
@@ -132,6 +133,33 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="reviews" id="reviewsSection">
+        <div class="reviews__container">      
+          <h2 class="reviews__title" data-i18n="reviews.title"></h2>      
+          <div id="reviewsList" class="reviews__list"></div>    
+        </div>
+      </section>
+
+      <section class="reviews__form__container">
+        <div class="address">
+          <h3>Наш адрес</h3>
+          <ul class="address__list">
+            <li class="address__item">г.Батуми</li>
+            <li class="address__item">ул. Юрия Гагарина, 31</li>
+            <li class="address__item">тел.+999555200200</li>
+            <li class="address__item">anbani.group@gmail.com</li>
+          </ul>
+        </div>
+        <form id="reviewForm" class="reviews__form">
+          <h3 class="reviews__form-title" data-i18n="reviewsForm.title"></h3>
+          <label class="reviews__form-label" for="name" data-i18n="reviewsForm.name"></label>
+          <input id="name" class="reviews__input" type="text" required />
+          <label class="reviews__form-label" for="name" data-i18n="reviewsForm.text"></label>
+          <textarea id="text" class="reviews__textarea" required></textarea>
+          <button class="reviews__button" type="submit" data-i18n="reviewsForm.btn"></button>
+        </form>
       </section>
     </main>
 

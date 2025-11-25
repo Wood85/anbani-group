@@ -5,13 +5,13 @@
 }
 
 :root {
-  --main-color: #F2D1A4;
-  --secondary-color: #C9601E;
-  --bg-color: #EFE3D1;
+  --main-color: #f2d1a4;
+  --secondary-color: #c9601e;
+  --bg-color: #efe3d1;
   --text-color: #222;
   --border-radius: 8px;
   --font-size-base: 16px;
-  --font-main: 'Montserrat', sans-serif;
+  --font-main: "Montserrat", sans-serif;
 }
 
 body.page {
@@ -21,13 +21,28 @@ body.page {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 600;
   line-height: 1.2;
 }
 
 h2 {
   font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
 }
 
 .main {
@@ -40,12 +55,26 @@ h2 {
   h2 {
     font-size: 24px;
   }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
 }
 
-
 @media (max-width: 550px) {
-
   h2 {
     font-size: 17px;
-  } 
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
 }

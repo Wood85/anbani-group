@@ -25,6 +25,11 @@ export const translations: Translations = {
     "services.title": "Наши работы",
     "contacts.title": "Контакты",
     "contacts.text": "Позвоните или напишите нам, чтобы обсудить ваш проект.",
+    "reviews.title": "Отзывы наших клиентов",
+    "reviewsForm.title": "Оставьте отзыв",
+    "reviewsForm.name": "Ваше имя",
+    "reviewsForm.text": "Ваш отзыв",
+    "reviewsForm.btn": "Отправить",
   },
   en: {
     "header.subtitle": "Made-to-order furniture that fits your style",
@@ -50,5 +55,10 @@ export const translations: Translations = {
     "services.title": "Our Projects",
     "contacts.title": "Contacts",
     "contacts.text": "Call or message us to discuss your project.",
+    "reviews.title": "Customer Reviews",
+    "reviewsForm.title": "Leave a Review",
+    "reviewsForm.name": "Your Name",
+    "reviewsForm.text": "Your Review",
+    "reviewsForm.btn": "Send",
   },
 };
