@@ -47,7 +47,6 @@
 }
 
 .hero__title {
-  font-size: 40px;
   color: white;
 }
 
@@ -118,10 +117,6 @@
   .hero {
     height: 422px;
   }
-
-  .hero__title {
-    font-size: 30px;
-  }
 }
 
 @media (max-width: 550px) {
@@ -132,10 +127,6 @@
   .hero__content-container {
     gap: 20px;
     padding: 30px 16px;
-  }
-
-  .hero__title {
-    font-size: 20px;
   }
 
   .hero__subtitle {
