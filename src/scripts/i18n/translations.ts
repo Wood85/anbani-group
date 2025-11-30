@@ -13,15 +13,21 @@ export const translations: Translations = {
     "hero.subtitle": "Изготовим корпусную мебель по вашим размерам и стилю",
     "hero.button": "Наши работы",
     "partners.title": "Наши партнёры",
-    "stats.title": "Ключевые показатели",
-    "stats.periodYears": "лет",
-    "stats.period": "Работаем с 2012 года",
-    "stats.clients": "Довольных клиентов",
-    "stats.projects": "Выполненных проектов",
-    "stats.years": "года",
-    "stats.warranty": "Гарантия качества",
+    "stats.title": "Ключевые показатели эффективности",
+    "stats.experienceTitle": "Опыт и Надёжность",
+    "stats.experienceText":
+      "17 лет производства мебели - нам доверяют клиенты из более чем 15 стран",
+    "stats.qualityTitle": "Высокое Качество",
+    "stats.qualityText":
+      "Мы используем экологичные материалы и современные технологии производства",
+    "stats.designTitle": "Индивидуальный Дизайн",
+    "stats.designText":
+      "Мы создаём мебель, которая подчёркивает ваш стиль и идеально вписывается в интерьер",
+    "stats.rangeTitle": "Широкий Ассортимент",
+    "stats.rangeText":
+      "Кухни, шкафы, гардеробные, детская мебель, мебель для ванных комнат, офисная мебель - всё для вашего комфорта",
     "about.text":
-      "Anbani Group — производитель корпусной мебели полного цикла. Мы создаем кухни, шкафы, гардеробные и офисные решения под заказ.",
+      "Anbani Group - производитель корпусной мебели полного цикла. Мы создаем кухни, шкафы, гардеробные и офисные решения под заказ.",
     "services.title": "Наши работы",
     "contacts.title": "Контакты",
     "contacts.text": "Позвоните или напишите нам, чтобы обсудить ваш проект.",
@@ -30,6 +36,13 @@ export const translations: Translations = {
     "reviewsForm.name": "Ваше имя",
     "reviewsForm.text": "Ваш отзыв",
     "reviewsForm.btn": "Отправить",
+    "aboutPage.title": "О нас",
+    "aboutPage.content":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam quae tempore excepturi at ea quisquam nemo ducimus, voluptate iste quas, sit soluta non dolorum quod repudiandae officiis deleniti doloribus rem sunt? Obcaecati ut, itaque magni, ratione molestiae quod vitae quaerat a est laborum saepe voluptates nobis sapiente asperiores in hic suscipit dolor totam numquam temporibus odio recusandae quis. Fugiat dicta et, consectetur rerum mollitia impedit alias provident ullam voluptates repellendus delectus ipsa a architecto repellat porro cupiditate perferendis placeat quas! Consectetur nostrum autem necessitatibus doloremque eum! Placeat corrupti in reiciendis facere eius, laudantium aliquam veritatis fuga, maiores modi mollitia tempora.",
+
+    "contacts.city": "Батуми",
+    "contacts.street": "ул. Юрия Гагарина, 31",
+    "contacts.address": "Адрес",
   },
   en: {
     "header.subtitle": "Made-to-order furniture that fits your style",
@@ -42,13 +55,19 @@ export const translations: Translations = {
       "We design and build furniture that fits your style and space.",
     "hero.button": "Our projects",
     "partners.title": "Our partners",
-    "stats.title": "Key Metrics",
-    "stats.periodYears": "years",
-    "stats.period": "Operating since 2012",
-    "stats.clients": "Satisfied Clients",
-    "stats.projects": "Completed Projects",
-    "stats.years": "years",
-    "stats.warranty": "Quality Guarantee",
+    "stats.title": "Key Performance Indicators",
+    "stats.experienceTitle": "Experience & Reliability",
+    "stats.experienceText":
+      "17 years of furniture production - trusted by clients from more than 15 countries",
+    "stats.qualityTitle": "High Quality",
+    "stats.qualityText":
+      "We use eco-friendly materials and modern manufacturing technologies",
+    "stats.designTitle": "Individual Design",
+    "stats.designText":
+      "We create furniture that highlights your style and fits perfectly into your interior",
+    "stats.rangeTitle": "Wide Range of Products",
+    "stats.rangeText":
+      "Kitchens, wardrobes, walk-in closets, kids’ furniture, bathroom furniture, office furniture - everything for your comfort",
     "about.title": "About Us",
     "about.text":
       "Anbani Group is a full-cycle furniture manufacturer. We create custom kitchens, wardrobes, and office interiors.",
@@ -60,5 +79,11 @@ export const translations: Translations = {
     "reviewsForm.name": "Your Name",
     "reviewsForm.text": "Your Review",
     "reviewsForm.btn": "Send",
+    "aboutPage.title": "About us",
+    "aboutPage.content":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam quae tempore excepturi at ea quisquam nemo ducimus, voluptate iste quas, sit soluta non dolorum quod repudiandae officiis deleniti doloribus rem sunt? Obcaecati ut, itaque magni, ratione molestiae quod vitae quaerat a est laborum saepe voluptates nobis sapiente asperiores in hic suscipit dolor totam numquam temporibus odio recusandae quis. Fugiat dicta et, consectetur rerum mollitia impedit alias provident ullam voluptates repellendus delectus ipsa a architecto repellat porro cupiditate perferendis placeat quas! Consectetur nostrum autem necessitatibus doloremque eum! Placeat corrupti in reiciendis facere eius, laudantium aliquam veritatis fuga, maiores modi mollitia tempora.",
+    "contacts.city": "Batumi",
+    "contacts.street": "Yuri Gagarin St. 31",
+    "contacts.address": "Address",
   },
 };
