@@ -20,9 +20,9 @@
   max-width: 1440px;
   padding: 40px 30px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
-  gap: 20px;
+  gap: 60px;
 }
 
 .address {
@@ -165,16 +165,12 @@
     justify-content: center;
     flex-direction: column;
     gap: 30px;
-  }
-
-  .address {
-    order: 2;
+    align-items: center;
   }
 
   .reviews__form {
     padding: 18px;
     gap: 12px;
-    order: 1;
   }
 
   .reviews__form-title {
