@@ -1,0 +1,158 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  padding: 30px;
+  margin: 0 auto;
+  gap: 40px;
+  height: 100%;
+}
+
+.filters__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.tabs__button {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.tabs__button.active {
+  border: 1px solid #5abf70;
+  color: #5abf70;
+}
+
+.tabs__button-count {
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--gray-600);
+}
+
+.tabs__button.active .tabs__button-count {
+  color: #5abf70;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  grid-template-rows: repeat(3, auto); /* 3 строки */
+  gap: 2.195%;
+}
+
+.cards__card {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+  aspect-ratio: 1 / 0.607;
+  object-fit: cover;
+}
+
+.content__load-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.content__load-more-container {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.content__load-more-img {
+  vertical-align: middle;
+}
+
+@media (max-width: 1200px) {
+  .projects {
+    gap: 60px;
+  }
+
+  .tabs__button {
+    font-size: 12px;
+  }
+
+  .tabs__button-count {
+    font-size: 8px;
+  }
+
+  .content__load-more {
+    font-size: 15px;
+    margin-top: 60px;
+  }
+
+  .content__load-more-container {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .projects {
+    gap: 30px;
+  }
+
+  .tabs__button {
+    padding: 3px 5px;
+  }
+
+  .tabs__button-count {
+    display: none;
+  }
+
+  .content__load-more {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .projects {
+    padding: 20px 16px;
+    gap: 20px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .tabs {
+    gap: 5px;
+  }
+
+  .tabs__button {
+    justify-content: center;
+    padding: 3px;
+  }
+}
+
+@media (max-width: 470px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
