@@ -9,11 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
     <script type="module" src="/src/scripts/main.ts"></script>
     <script type="module" src="/src/scripts/ui/reviews.ts"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="module" src="/src/scripts/ui/gallery.ts"></script>
   </head>
   <body class="page">
     <header class="header">
@@ -122,114 +119,34 @@
     </header>
 
     <main class="main">
-      <section class="hero" role="banner">
-        <div class="hero__banner">
-          <img
-            class="hero__banner-img"
-            src="/src/assets/kt.webp"
-            alt="banner"
-          />
-        </div>
-        <div class="hero__content">
-          <div class="hero__content-container">
-            <h1 class="hero__title" data-i18n="hero.title"></h1>
-            <a
-              href="contacts.html"
-              class="hero__button"
-              data-i18n="hero.button"
-            ></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="stats">
-        <div class="stats__container">
-          <h2 class="stats__title" data-i18n="stats.title"></h2>
-          <div class="stats__list" role="list">
-            <div class="stats__item">
-              <h4
-                class="stats__item-title"
-                data-i18n="stats.experienceTitle"
-              ></h4>
-              <p class="stats__item-text" data-i18n="stats.experienceText"></p>
-            </div>
-            <div class="stats__item">
-              <h4 class="stats__item-title" data-i18n="stats.qualityTitle"></h4>
-              <p class="stats__item-text" data-i18n="stats.qualityText"></p>
-            </div>
-            <div class="stats__item">
-              <h4 class="stats__item-title" data-i18n="stats.designTitle"></h4>
-              <p class="stats__item-text" data-i18n="stats.designText"></p>
-            </div>
-            <div class="stats__item">
-              <h4 class="stats__item-title" data-i18n="stats.rangeTitle"></h4>
-              <p class="stats__item-text" data-i18n="stats.rangeText"></p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="gallery">
-        <div class="gallery__container">
-          <h2 class="gallery__title" data-i18n="hero.button"></h2>
-          <div class="swiper gallery__slider">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="/src/assets/slider/IMG_2937.JPG" alt="work 1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="/src/assets/slider/IMG_2938.JPG" alt="work 2" />
-              </div>
-              <div class="swiper-slide">
-                <img src="/src/assets/slider/IMG_2939.JPG" alt="work 3" />
-              </div>
-              <div class="swiper-slide">
-                <img src="/src/assets/slider/IMG_2941.JPG" alt="work 4" />
-              </div>
-            </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="reviews" id="reviewsSection">
-        <div class="reviews__container">
-          <h2 class="reviews__title" data-i18n="reviews.title"></h2>
-          <div id="reviewsList" class="reviews__list"></div>
-        </div>
-      </section>
-
-      <section class="reviews__form__container">
-        <form id="reviewForm" class="reviews__form">
-          <h3 class="reviews__form-title" data-i18n="reviewsForm.title"></h3>
-          <label
-            class="reviews__form-label"
-            for="name"
-            data-i18n="reviewsForm.name"
-          ></label>
-          <input id="name" class="reviews__input" type="text" required />
-          <label
-            class="reviews__form-label"
-            for="name"
-            data-i18n="reviewsForm.text"
-          ></label>
-          <textarea id="text" class="reviews__textarea" required></textarea>
-          <button
-            class="reviews__button"
-            type="submit"
-            data-i18n="reviewsForm.btn"
-          ></button>
-        </form>
-        <div class="address">
-          <h3 data-i18n="contacts.address"></h3>
-          <ul class="address__list">
-            <li class="address__item" data-i18n="contacts.city"></li>
-            <li class="address__item" data-i18n="contacts.street"></li>
-            <li class="address__item">+999555200200</li>
-            <li class="address__item">anbani.group@gmail.com</li>
+      <section class="services">
+        <h1 class="services__title" data-i18n="menu.services"></h1>
+        <div class="services__content">
+          <ul class="services__list">
+            <li class="services__item">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              molestiae.
+            </li>
+            <li class="services__item">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              molestiae.
+            </li>
+            <li class="services__item">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              molestiae.
+            </li>
+            <li class="services__item">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              molestiae.
+            </li>
+            <li class="services__item">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              molestiae.
+            </li>
+            <li class="services__item">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              molestiae.
+            </li>
           </ul>
         </div>
       </section>
